@@ -2,8 +2,8 @@ const Discord = require('discord.js');
 const bot_config = require('./bot_config.json');
 const client = new Discord.Client();
 
-const command = new Discord.Collection();
-const events = new Discord.Collection();
+client.command = new Discord.Collection();
+client.events = new Discord.Collection();
 
 client.prefix = bot_config.prefix;
 
