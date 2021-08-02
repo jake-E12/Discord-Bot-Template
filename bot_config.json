@@ -1,0 +1,5 @@
+{
+    "name": "Your bot name here",
+    "token": "Your discord bot token here",
+    "prefix": "!"
+}
